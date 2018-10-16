@@ -1,0 +1,55 @@
+body{
+  background-color: darkseagreen;
+  text-align: center;
+  font-family: monospace;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+
+}
+
+li{
+  list-style-type: none;
+  /* text-align: center; */
+  text-align:left;
+  padding-right: 10pt;
+}
+
+li:hover {
+  background-color: #76818E;
+  display: block;
+}
+/* .active {
+  background-color: #76818E;
+}
+
+.active {
+  background-color: moccasin;
+  color: beige;
+} */
+
+img{
+  width: 60%;
+  height: auto;
+}
+
+.planet-details{
+  /* width: auto; */
+  font-size: 20pt;
+  color: cadetblue;
+  width: 70%;
+  content: center;
+  margin-left: 10pt;
+  margin-right: 20pt;
+  /* height:100%; */
+  background-color: black;
+}
+
+.planets-menu{
+  background-color: burlywood;
+  width: 30%;
+}
